@@ -36,7 +36,7 @@
         <div class="jumbotron" style="padding-top: 10px; padding-bottom: 30px;">
             <h2 style="color: darkcyan;"><b> Android Download Link </b></h2>
             <br>
-            <a href="not_available.php" target="_self" class="btn btn-danger" role="button" aria-pressed="true"> A Vaila Ball 1.0.2 </a>
+            <a href="https://drive.google.com/open?id=0B_pp1x7_7HuDalFNaENlQV9zeG8" target="_blank" class="btn btn-danger" role="button" aria-pressed="true"> A Vaila Ball 1.0.2 </a>
         </div>      
         <hr style="border-top: 1px solid #3c763d;">
         <div class="jumbotron" style="padding-top: 10px; padding-bottom: 30px;">
