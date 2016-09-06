@@ -15,7 +15,7 @@
     $username = protectNicknameFromInjection($_POST["form_username"]);
     $password = protectPasswordFromInjection($_POST["form_password"]);
 
-    $sql_query = "SELECT * FROM Users WHERE Username = '$username'";
+    $sql_query = "SELECT * FROM ComputerUsers WHERE Username = '$username'";
     $sql_result = mysqli_query($connection, $sql_query);
     $num_of_rows = mysqli_num_rows($sql_result);
     

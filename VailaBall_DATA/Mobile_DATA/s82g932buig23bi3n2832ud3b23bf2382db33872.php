@@ -3,7 +3,7 @@
     $hostName     = "localhost";
     $hostUser     = "root";
     $hostPassword = "fgvttv5yybb1";
-    $database     = "FlappyBall";
+    $database     = "VailaBall";
 
     // Make Connection
     $connection = new mysqli($hostName, $hostUser, $hostPassword, $database);
@@ -24,7 +24,7 @@
     if ($unityHash != $phpHash) {
         echo "Hash codes won't match up!";
     } else {
-        $sql_query = "UPDATE Users SET Score = $score WHERE Username = '$username'";
+        $sql_query = "UPDATE MobileUsers SET Score = $score WHERE Username = '$username'";
         $sql_result = mysqli_query($connection, $sql_query);
         echo "Saving succeeded!";
     }

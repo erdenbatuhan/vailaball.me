@@ -3,7 +3,7 @@
     $hostName     = "localhost";
     $hostUser     = "root";
     $hostPassword = "fgvttv5yybb1";
-    $database     = "FlappyBall";
+    $database     = "VailaBall";
 
     // Make Connection
     $connection = new mysqli($hostName, $hostUser, $hostPassword, $database);
@@ -20,7 +20,7 @@
     $phpHash = "y17rct1y894bt1274128c41n2y7e12he9128bcr7g21wqbuqiubqwpqhex27egc12hr137r";
 
     // Make SQL Query
-    $sql_query = "SELECT Username, Score FROM Users WHERE Username = '$username'";
+    $sql_query = "SELECT Username, Score FROM MobileUsers WHERE Username = '$username'";
     $sql_result = mysqli_query($connection, $sql_query);
 
     // Print Result

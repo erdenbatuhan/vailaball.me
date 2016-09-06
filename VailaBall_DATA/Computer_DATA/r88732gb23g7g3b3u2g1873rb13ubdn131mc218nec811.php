@@ -18,7 +18,7 @@
     
     // Make SQL Query
     if ($username && $password) {
-        $sql_query = "INSERT INTO Users (Username, Password, LevelsCompleted, Skin) VALUES ('$username', '$password', 0, 0)";
+        $sql_query = "INSERT INTO ComputerUsers (Username, Password, LevelsCompleted, Skin) VALUES ('$username', '$password', 0, 0)";
         $sql_result = mysqli_query($connection, $sql_query);
     }
 

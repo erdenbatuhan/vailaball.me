@@ -13,7 +13,7 @@
         die("Connection Failed. ". mysqli_connect_error());
 
     // Make SQL Query
-    $sql_query = "SELECT * FROM Users";
+    $sql_query = "SELECT * FROM ComputerUsers";
     $sql_result = mysqli_query($connection, $sql_query);
 
     // Fetch Results

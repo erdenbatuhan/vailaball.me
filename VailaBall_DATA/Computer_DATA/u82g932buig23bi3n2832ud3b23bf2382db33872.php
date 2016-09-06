@@ -20,7 +20,7 @@
         die("Connection Failed. ". mysqli_connect_error());
         
     // Make SQL Query
-    $sql_query = "UPDATE Users SET Username = '$username', Password = '$password', LevelsCompleted = $levelsCompleted, Skin = $skin WHERE ID = $id";
+    $sql_query = "UPDATE ComputerUsers SET Username = '$username', Password = '$password', LevelsCompleted = $levelsCompleted, Skin = $skin WHERE ID = $id";
     $sql_result = mysqli_query($connection, $sql_query);
 
     // Close Connection
