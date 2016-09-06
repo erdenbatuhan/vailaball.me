@@ -25,7 +25,7 @@
 		<div class="footer-right">	
 			<p class="footer-company-about">
 				<span>About the game</span>
-				A Vaila Ball is a platform where you can play with your friends. What this game needs is your support. Levels may seem hard, but you need to push forward to put yourselves into leaderboards.
+				A Vaila Ball is a game which you can play with your friends. What this game needs is your support. Levels may seem hard, but you need to push forward to put yourselves into leaderboards.
 			</p>
 			<div class="footer-icons">
 				<a href="https://www.facebook.com/batuhanerden" target="_blank"><i class="fa fa-facebook"></i></a>
