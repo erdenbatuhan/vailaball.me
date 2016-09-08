@@ -15,7 +15,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li>
                     <p class="navbar-btn">
-                         <a href="index.php" class="btn btn-success btn-sm" role="button" aria-pressed="true"> Download A Vaila Ball </a>
+                         <a href="./" class="btn btn-success btn-sm" role="button" aria-pressed="true"> Download A Vaila Ball </a>
                     </p>
                 </li>
             </ul>
