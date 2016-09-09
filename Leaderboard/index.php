@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <title> Download - A Vaila Ball </title>
+    <title> Leaderboard - A Vaila Ball </title>
     <link rel="stylesheet" href="../include/css/bootstrap.css" type="text/css">
 	<link rel="stylesheet" href="../include/css/styleutiful.css">
 	<link rel="stylesheet" href="../include/css/table-responsive.css">
@@ -16,10 +16,10 @@
             <a class="navbar-brand" style="color: whitesmoke;" href="../"><h3>A Vai<span>la Ball</span></h3></a>
         </div>
     </nav>
-    <div class="container text-center">
-        <br><br>
+    <div id="demo" class="container text-center">
+        <br>
         <hr style="border-top: 1px solid #3c763d;">
-  <h1 style="color: darkred;"> LEADERBOARDS </h1>
+  <h1 style="color: darkred;"> LEADERBOARD </h1>
         <hr style="border-top: 1px solid #3c763d;">
   <div class="table-responsive-vertical shadow-z-1">
   <table id="table" class="table table-hover table-mc-light-blue">
