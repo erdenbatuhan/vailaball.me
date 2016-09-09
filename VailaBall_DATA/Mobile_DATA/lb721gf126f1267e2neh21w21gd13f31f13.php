@@ -41,7 +41,7 @@
             	break;
         }
 
-	echo $rank;
+	echo $rank . "|" . $score;
     }
 
     // Close Connection
