@@ -57,18 +57,19 @@
 
     // Print Result
 	for ($count = 1; $row = mysqli_fetch_assoc($sql_result); $count++) {
+		echo $GET['ID'];
 		if ($_GET['ID'] == $row['ID'])
 			echo "<tr>
-				<td data-title='Rank' style='color: red;'>" . $count . "</td>
-				<td data-title='Username' style='color: red;'>" . $row['Username'] . "</td>
-				<td data-title='Score' style='color: red;'>" . $row['Score'] . "</td>
-			  </tr>";
+					<td data-title='Rank' style='color: red;'>" . $count . "</td>
+					<td data-title='Username' style='color: red;'>" . $row['Username'] . "</td>
+					<td data-title='Score' style='color: red;'>" . $row['Score'] . "</td>
+				  </tr>";
 		else
 			echo "<tr>
-				<td data-title='Rank'>" . $count . "</td>
-				<td data-title='Username' style='color: red;'>" . $row['Username'] . "</td>
-				<td data-title='Score'>" . $row['Score'] . "</td>
-			  </tr>";
+					<td data-title='Rank'>" . $count . "</td>
+					<td data-title='Username'>" . $row['Username'] . "</td>
+					<td data-title='Score'>" . $row['Score'] . "</td>
+				  </tr>";
 	}
 
     // Close Connection
