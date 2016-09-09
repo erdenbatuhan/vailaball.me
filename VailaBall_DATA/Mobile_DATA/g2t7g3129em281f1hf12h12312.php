@@ -20,14 +20,14 @@
     $phpHash = "y17rct1y894bt1274128c41n2y7e12he9128bcr7g21wqbuqiubqwpqhex27egc12hr137r";
 
     // Make SQL Query
-    $sql_query = "SELECT Username, Score FROM MobileUsers WHERE Username = '$username'";
+    $sql_query = "SELECT ID, Username, Score FROM MobileUsers WHERE Username = '$username'";
     $sql_result = mysqli_query($connection, $sql_query);
 
     // Print Result
     if ($unityHash != $phpHash)
         echo "Hash codes won't match up!";
     else if ($row = mysqli_fetch_assoc($sql_result))
-        echo $row['Username'] . "|" . $row['Score'];
+        echo $row['ID'] . "|" . $row['Username'] . "|" . $row['Score'];
 
     // Close Connection
     mysqli_close($connection);
