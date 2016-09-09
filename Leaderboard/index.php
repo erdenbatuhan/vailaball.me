@@ -22,10 +22,12 @@
         </div>
     </nav>
     <div class="container">
+	<div class="text-center>
         <br><br><br>
         <hr style="border-top: 1px solid #3c763d;">
   <h1 style="color: darkred;"> LEADERBOARD </h1>
         <hr style="border-top: 1px solid #3c763d;">
+		</div>
   <table id="table" class="table table-hover table-mc-light-blue">
       <thead>
         <tr>
