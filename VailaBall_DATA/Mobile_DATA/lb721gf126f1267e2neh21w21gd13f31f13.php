@@ -32,7 +32,7 @@
             if (!strcmp($username, $row['Username']))
 	        $rank = $count;
 
-	    if (count <= 10)	
+	    if ($count <= 10)
 	    	echo $row['Username'] . "|" . $row['Score'] . "|";
 	    else if ($rank)
             	break;
