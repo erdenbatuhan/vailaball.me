@@ -12,6 +12,13 @@
     <nav class="navbar navbar-light navbar-fixed-top bg-primary" style="border-radius: 0px; border-bottom-style: groove; border-bottom-color: black; border-bottom-width: 3px;">
         <div class="container-fluid">
             <a class="navbar-brand" style="color: whitesmoke;" href="../"><h3>A Vai<span>la Ball</span></h3></a>
+            <ul class="nav navbar-nav navbar-right">
+				<li>
+                    <p class="navbar-btn"> 
+                         <a href="../Leaderboard" class="btn btn-success btn-sm" role="button" aria-pressed="true"> Leaderboard </a>
+                    </p>
+                </li>
+            </ul>
         </div>
     </nav>
     <div class="container text-center">
@@ -47,14 +54,7 @@
         </div>      
         <hr style="border-top: 1px solid #3c763d;">
         <br><br><br><br><br>
-    </div>
-    <nav class="navbar navbar-light navbar-fixed-bottom bg-danger footer" style="border-radius: 0px; padding-top: 10px;">
-        <div class="container text-center">
-            <a href="https://www.facebook.com/batuhanerden" target="_blank"><span class="fa fa-facebook sep grow---"></span></a>
-			<a href="https://www.twitter.com" target="_blank"><span class="fa fa-twitter sep grow---"></span></a>
-			<a href="https://www.linkedin.com/in/batuhan-erden-76686b117?authType=NAME_SEARCH&authToken=6tCO&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A488850558%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1472827096958%2Ctas%3Abatuhan%20erden" target="_blank"><span class="fa fa-linkedin sep grow---"></span></a>
-			<a href="https://github.com/erdenbatuhan/" target="_blank"><span class="fa fa-github sep grow---"></span></a>
-        </div>
-    </nav>
+    </div> 
+    <?php include "../footer.php"  ?>
 </body>
 </html>
