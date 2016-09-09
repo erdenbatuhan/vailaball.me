@@ -15,6 +15,7 @@
     /* ========== VARIABLES FOR USER ========== */
     $username = $_POST["form_username"];
     $rank = 0;
+    $score = 0;
 
     /* ========== HASH CODES ========== */
     $unityHash = $_POST["form_hash"];
@@ -29,8 +30,10 @@
         echo "Hash codes won't match up!";
     } else {
         for ($count = 1; $row = mysqli_fetch_assoc($sql_result); $count++) {  
-            if (!strcmp($username, $row['Username']))
+            if (!strcmp($username, $row['Username'])) {
 	        $rank = $count;
+		$score = $row['Score'];
+	    }
 
 	    if ($count <= 10)
 	    	echo $row['Username'] . "|" . $row['Score'] . "|";
