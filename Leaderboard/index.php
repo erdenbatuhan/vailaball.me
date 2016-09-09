@@ -66,7 +66,7 @@
 		else
 			echo "<tr>
 				<td data-title='Rank'>" . $count . "</td>
-				<td data-title='Username'>" . $row['Username'] . "</td>
+				<td data-title='Username' style='color: red;'>" . $row['Username'] . "</td>
 				<td data-title='Score'>" . $row['Score'] . "</td>
 			  </tr>";
 	}
