@@ -21,12 +21,11 @@
             </ul>
         </div>
     </nav>
-    <div id="p" class="container text-center">
+    <div class="container">
         <br><br><br>
         <hr style="border-top: 1px solid #3c763d;">
   <h1 style="color: darkred;"> LEADERBOARD </h1>
         <hr style="border-top: 1px solid #3c763d;">
-  <div class="table-responsive-vertical shadow-z-1">
   <table id="table" class="table table-hover table-mc-light-blue">
       <thead>
         <tr>
@@ -67,7 +66,6 @@
 ?>
       </tbody>
     </table>
-  </div>
 </div>
 <br><br><br><br>
     <?php include "../footer.php"  ?>
