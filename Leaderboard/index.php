@@ -57,7 +57,6 @@
 
     // Print Result
 	for ($count = 1; $row = mysqli_fetch_assoc($sql_result); $count++) {
-		echo $_GET['ID'];
 		if ($_GET['ID'] == $row['ID'])
 			echo "<tr>
 					<td data-title='Rank' style='color: red;'>" . $count . "</td>
