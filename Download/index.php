@@ -44,13 +44,13 @@
         <div class="jumbotron" style="padding-top: 10px; padding-bottom: 30px;">
             <h2 style="color: darkcyan;"><b> Android Download Link </b></h2>
             <br>
-            <a href="https://drive.google.com/open?id=0B_pp1x7_7HuDTGR1ODM2VXlBM3M" target="_blank" class="btn btn-danger" role="button" aria-pressed="true"> A Vaila Ball 1.0.3 </a>
+            <a href="https://drive.google.com/open?id=0B_pp1x7_7HuDNk02bWYtYnhUUDA" target="_blank" class="btn btn-danger" role="button" aria-pressed="true"> A Vaila Ball 1.0.4 </a>
         </div>      
         <hr style="border-top: 1px solid #3c763d;">
         <div class="jumbotron" style="padding-top: 10px; padding-bottom: 30px;">
             <h2 style="color: darkcyan;"><b> iOS Download Link </b></h2>
             <br>
-            <a href="not_available.php" target="_self" class="btn btn-danger" role="button" aria-pressed="true"> A Vaila Ball 1.0.3 </a>
+            <a href="not_available.php" target="_self" class="btn btn-danger" role="button" aria-pressed="true"> A Vaila Ball 1.0.4 </a>
         </div>      
         <hr style="border-top: 1px solid #3c763d;">
         <br><br><br><br><br>
